@@ -1,4 +1,4 @@
-# curso_regex
+# Exemplos do Curo d RegExp com Dart
 
 Repósitório de Exemplos Criados com Base no Curso de Regex
  - [Fundamentos de Expressões Regulares (Regex)](https://www.udemy.com/course/curso-regex/)
