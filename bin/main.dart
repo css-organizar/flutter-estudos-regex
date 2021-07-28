@@ -12,9 +12,9 @@ void main() {
   //c003a016();
   //c003a018();
   //c003a019();
-  //c003a020();
+  c003a020();
 
-  spliStringRegex();
+  //spliStringRegex();
 
 //
 }
