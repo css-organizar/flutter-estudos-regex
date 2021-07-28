@@ -1,20 +1,12 @@
 # Exemplos do Curo de RegExp com Dart
 
-RepÛsitÛrio de Exemplos Criados com Base no Curso de Regex
- - [Fundamentos de Expressıes Regulares (Regex)](https://www.udemy.com/course/curso-regex/)
+Rep√≥sit√≥rio de Exemplos Criados com Base no Curso de Regex
+ - [Fundamentos de Express√µes Regulares (Regex)](https://www.udemy.com/course/curso-regex/)
 
-## DescriÁ„o
+## Descri√ß√£o
 
-<<<<<<< HEAD
-<<<<<<< a82c1ffd36abfd49a5769b6d30714a5060623125
-This project is a starting point for a Flutter application.
-=======
-Em ciÍncia da computaÁ„o, uma express„o regular ou "Regex" (ou os estrangeirismos regex ou regexp, abreviaÁ„o do inglÍs regular expression) provÍ uma forma concisa e flexÌvel de identificar cadeias de caracteres de interesse, como caracteres particulares, palavras ou padrıes de caracteres. Expressıes regulares s„o escritas numa linguagem formal que pode ser interpretada por um processador de express„o regular, um programa que serve um gerador de analisador sint·tico ou examina o texto e identifica as partes que casam com a especificaÁ„o dada.
->>>>>>> Atualiza√ß√£o do README
-=======
-Em ciÍncia da computaÁ„o, uma express„o regular ou "Regex" (ou os estrangeirismos regex ou regexp, abreviaÁ„o do inglÍs regular expression) provÍ uma forma concisa e flexÌvel de identificar cadeias de caracteres de interesse, como caracteres particulares, palavras ou padrıes de caracteres. Expressıes regulares s„o escritas numa linguagem formal que pode ser interpretada por um processador de express„o regular, um programa que serve um gerador de analisador sint·tico ou examina o texto e identifica as partes que casam com a especificaÁ„o dada.
->>>>>>> master
+Em ci√™ncia da computa√ß√£o, uma express√£o regular ou "Regex" (ou os estrangeirismos regex ou regexp, abrevia√ß√£o do ingl√™s regular expression) prov√™ uma forma concisa e flex√≠vel de identificar cadeias de caracteres de interesse, como caracteres particulares, palavras ou padr√µes de caracteres. Express√µes regulares s√£o escritas numa linguagem formal que pode ser interpretada por um processador de express√£o regular, um programa que serve um gerador de analisador sint√°tico ou examina o texto e identifica as partes que casam com a especifica√ß√£o dada.
 
-O termo deriva do trabalho do matem·tico norte-americano Stephen Cole Kleene, que desenvolveu as expressıes regulares como uma notaÁ„o ao que ele chamava de ·lgebra de conjuntos regulares. Seu trabalho serviu de base para os primeiros algoritmos computacionais de busca, e depois para algumas das mais antigas ferramentas de tratamento de texto da plataforma Unix.
+O termo deriva do trabalho do matem√°tico norte-americano Stephen Cole Kleene, que desenvolveu as express√µes regulares como uma nota√ß√£o ao que ele chamava de √°lgebra de conjuntos regulares. Seu trabalho serviu de base para os primeiros algoritmos computacionais de busca, e depois para algumas das mais antigas ferramentas de tratamento de texto da plataforma Unix.
 
-O uso atual de expressıes regulares inclui procura e substituiÁ„o de texto em editores de texto e linguagens de programaÁ„o, validaÁ„o de formatos de texto (validaÁ„o de protocolos ou formatos digitais), realce de sintaxe e filtragem de informaÁ„o.
+O uso atual de express√µes regulares inclui procura e substitui√ß√£o de texto em editores de texto e linguagens de programa√ß√£o, valida√ß√£o de formatos de texto (valida√ß√£o de protocolos ou formatos digitais), realce de sintaxe e filtragem de informa√ß√£o.
