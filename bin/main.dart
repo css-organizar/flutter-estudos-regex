@@ -1,17 +1,4 @@
-import 'c002a009.dart';
-import 'c002a015.dart';
-import 'c003a016.dart';
-import 'c003a018.dart';
-import 'c003a019.dart';
-import 'c003a020.dart';
-import 'c003a021.dart';
-import 'c003a022.dart';
-import 'c003a023.dart';
-import 'c003a024.dart';
-import 'c003a025.dart';
-import 'c003a026.dart';
-import 'c003a027.dart';
-import 'c004a028.dart';
+import 'aulas/aulas.dart';
 
 void main() async {
 //
