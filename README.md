@@ -52,7 +52,7 @@ void main() {
   String texto = "ABC [abc] a-c 1234";
 
   var match = regex.allMatches(texto);
-  print(match2;
+  print(match);
 
 }
 
