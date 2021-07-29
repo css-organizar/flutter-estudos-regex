@@ -3,7 +3,7 @@ import 'funcoes.dart';
 void c003a021() {
 //
 
-  print("\nCurso Regex Udemy - Capitulo 3 - Aula 21 \nMeta Caracteres - Ponto\n");
+  print("\nCurso Regex Udemy - Capitulo 3 - Aula 21 \nMeta Caracter - Ponto\n");
 
   RegExp regex;
   String texto;
