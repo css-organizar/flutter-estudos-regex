@@ -20,7 +20,7 @@ void imprimirResultado(
     if (regexAllMatch.length > 0) {
       print("   Lista de valores localizados:");
       for (RegExpMatch r in regexAllMatch) {
-        print("  -> Valor: - \"${r.group(0)}\"");
+        print("  -> Valor: \"${r.group(0)}\"");
       }
     }
   }
