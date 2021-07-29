@@ -12,3 +12,6 @@ export 'c003a025 - Meta Caracter PIPE.dart';
 export 'c003a026 - Probenas no Meta Caractere PONTO.dart';
 export 'c003a027 - Caracteres UNICODE.dart';
 export 'c004a028 - Conjuntos.dart';
+export 'c004a029 - Intervalos.dart';
+export 'c004a030 - Conjuntos e Meta Caracteres.dart';
+export 'c004a031 - Cuidados com Intervalos.dart';
