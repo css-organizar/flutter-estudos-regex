@@ -8,17 +8,19 @@ void c003a020() {
   /**
    * 
    * Lista dos Principais Meta Caracteres
-   * 
-   *  -> .
-   *  -> ?
-   *  -> *
-   *  -> +
-   *  -> -
-   *  -> ^
-   *  -> $
-   *  -> |
-   *  -> [ ] { } ( )
-   *  -> \
+   * _____________________________________________________________
+   * | "."     | ponto       | (coringa), casa caracteres
+   * | "?"     | opcional    | pode ou nao pode ter
+   * | "*"     | asterisco   | repetição opcional
+   * | "+"     | mais        | repeticao obrigatoria
+   * | "-"     | menos       |
+   * | "^"     | circunflexo | inicio da linha
+   * | "$"     | cifrão      | final da linha
+   * | "|"     | ou          | condicional "a|b" ai indica a ou b
+   * | "[aZ]"  | lista       | indica uma lista de caracteres e poder ser [^] lista negada
+   * | "{n,m}" | repetição   | repetição controlada de n a m"
+   * | "( )"   | agrupador   | agrupa caracteres
+   * | "\"     | escape      | força um literal
    * 
    * */
 
