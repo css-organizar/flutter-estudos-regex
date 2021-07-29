@@ -1,4 +1,4 @@
-import '../commons/funcoes.dart';
+import 'funcoes.dart';
 
 void c003a023() {
 //
