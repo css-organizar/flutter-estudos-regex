@@ -3,7 +3,7 @@ import '../utils/funcoes.dart';
 void c004a030() {
 //
 
-  print("\nCurso Regex Udemy - Capitulo 3 - Aula 30 \Conjuntos e Meta Caracteres\n");
+  print("\nCurso Regex Udemy - Capitulo 4 - Aula 30 \Conjuntos e Meta Caracteres\n");
 
   RegExp regex;
   String texto;

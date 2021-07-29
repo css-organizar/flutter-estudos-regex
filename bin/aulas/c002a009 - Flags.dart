@@ -7,6 +7,7 @@ void c002a009() {
 
   String texto;
   RegExp regex;
+  var match;
 
   /**
    * A função "allMatches" Age como se fosse uma expressão com o flag "g - global" 
@@ -14,17 +15,26 @@ void c002a009() {
 
   texto = "AaAaAa";
   regex = RegExp("a");
-  var match1 = regex.allMatches(texto);
-  print(match1);
+  match = regex.allMatches(texto);
+  print(match);
 
   /**
-   * A função "allMatches" Age como se fosse uma expressão com o flag "g - global"
    * O parâmetro "caseSensitive" age como se fosse o flaf "i - ignore case"
    */
+
   texto = "AaAaAa";
   regex = RegExp("a", caseSensitive: false);
-  var match2 = regex.allMatches(texto);
-  print(match2);
+  match = regex.allMatches(texto);
+  print(match);
+
+  /**
+   * O parâmetro "multiLine" age como se fosse o flaf "m - Multiline"
+   */
+
+  texto = "AaAaAa";
+  regex = RegExp("a", multiLine: true);
+  match = regex.allMatches(texto);
+  print(match);
 
 //
 }

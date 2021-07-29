@@ -3,7 +3,7 @@ import '../utils/funcoes.dart';
 void c004a031() {
 //
 
-  print("\nCurso Regex Udemy - Capitulo 3 - Aula 31 \Cuidados com Intervalos\n");
+  print("\nCurso Regex Udemy - Capitulo 4 - Aula 31 \Cuidados com Intervalos\n");
 
   RegExp regex;
   String texto;

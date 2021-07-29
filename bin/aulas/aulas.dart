@@ -15,3 +15,6 @@ export 'c004a028 - Conjuntos.dart';
 export 'c004a029 - Intervalos.dart';
 export 'c004a030 - Conjuntos e Meta Caracteres.dart';
 export 'c004a031 - Cuidados com Intervalos.dart';
+export 'c004a032 - Shorthands.dart';
+export 'c004a033 - Conjuntos Negados.dart';
+export 'c004a034 - Intervalos UNICODE.dart';
