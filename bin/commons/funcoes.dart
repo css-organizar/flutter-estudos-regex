@@ -1,21 +1,27 @@
 void imprimirResultado(
   RegExp regex,
-  String texto,
-) {
+  String texto, {
+  bool returnList = false,
+}) {
 //
 
   var regexHasMatch = regex.hasMatch(texto);
   var regexAllMatch = regex.allMatches(texto);
 
   print("");
-  print("${DateTime.now().toIso8601String()}:");
-  print(" - " + "regexHasMatch.toString():".padRight(36, ".") + " ${regexHasMatch.toString()}");
-  print(" - " + "regexAllMatch.length:".padRight(36, ".") + " ${regexAllMatch.length}");
+  print("Texto informado: $texto");
+  print("Pattern Aplicado: ${regex.pattern}");
+  print(" - " + "Localizou na String:".padRight(25, ".") + " ${regexHasMatch ? "Sim" : "Não"}");
+  print(" - " + "Ocorrências:".padRight(25, ".") + " ${regexAllMatch.length}");
 
-  if (regexAllMatch.length > 0) {
-    print("   Lista de valores localizados:");
-    for (RegExpMatch r in regexAllMatch) {
-      print("    -> $r - ${r.group(0)}");
+  if (returnList) {
+    print(regexAllMatch.map((v) => v[0]).toList());
+  } else {
+    if (regexAllMatch.length > 0) {
+      print("   Lista de valores localizados:");
+      for (RegExpMatch r in regexAllMatch) {
+        print("  -> Valor: - \"${r.group(0)}\"");
+      }
     }
   }
 
