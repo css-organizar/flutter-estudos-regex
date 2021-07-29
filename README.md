@@ -1,6 +1,6 @@
-# <strong> Exemplos do Curo de RegExp com Dart </strong>
+# <strong> Exemplo de Utilização de Expressões Regulares com Dart </strong>
 
-Repositório de Exemplos Criados com Base no Curso de Regex
+Repositório de Exemplos Criados com Base no Curso de Regex do <strong> Cod3R </strong> na plataforma UDEMY
  - [UDEMY - Fundamentos de Expressões Regulares (Regex)](https://www.udemy.com/course/curso-regex/)
 
 Literatura indicada
