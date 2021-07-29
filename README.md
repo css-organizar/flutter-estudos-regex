@@ -58,7 +58,7 @@ void main() {
 
 ```
 
-#  <strong> Shothand List </strong>
+#  <strong> Shorthand List </strong>
 
 ## <strong> Basics </strong>
 
