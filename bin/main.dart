@@ -1,19 +1,19 @@
-import 'aulas/c002a009.dart';
-import 'aulas/c002a015.dart';
-import 'aulas/c003a016.dart';
-import 'aulas/c003a018.dart';
-import 'aulas/c003a019.dart';
-import 'aulas/c003a020.dart';
-import 'aulas/c003a021.dart';
-import 'aulas/c003a022.dart';
-import 'aulas/c003a023.dart';
-import 'aulas/c003a024.dart';
-import 'aulas/c003a025.dart';
-import 'aulas/c003a026.dart';
-import 'aulas/c003a027.dart';
-import 'aulas/split_string_regex.dart';
+import 'aulas/01_flags/c002a009.dart';
+import 'aulas/02_caracteres/c002a015.dart';
+import 'aulas/02_caracteres/c003a016.dart';
+import 'aulas/02_caracteres/c003a018.dart';
+import 'aulas/02_caracteres/c003a019.dart';
+import 'aulas/02_caracteres/c003a020.dart';
+import 'aulas/02_caracteres/c003a021.dart';
+import 'aulas/02_caracteres/c003a022.dart';
+import 'aulas/02_caracteres/c003a023.dart';
+import 'aulas/02_caracteres/c003a024.dart';
+import 'aulas/02_caracteres/c003a025.dart';
+import 'aulas/02_caracteres/c003a026.dart';
+import 'aulas/02_caracteres/c003a027.dart';
+import 'aulas/00_extras/split_string_regex.dart';
 
-void main() {
+void main() async {
 //
 
   /**
@@ -34,9 +34,10 @@ void main() {
   // c003a024();
   // c003a025();
   // c003a026();
-  c003a027();
+  // c003a027();
+  c003a024();
 
-  //spliStringRegex();
+  spliStringRegex();
 
 //
 }
