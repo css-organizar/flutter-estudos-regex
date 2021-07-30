@@ -46,7 +46,7 @@ void main() {
   String texto = "ABC [abc] a-c 1234";
 
   /*
-   * Criando a xpressão regular
+   * Criando a Expressão regular
    * Parâmetros
    *  - caseSensitive: corresponde a flag "i" ignora UPPER e LOWER
    *  - dotAll: faz o ponto funcionar sobre quebra de linha e tab
@@ -57,7 +57,7 @@ void main() {
   RegExp regex = RegExp(r"[a-c]");
 
   /*
-   * Executando a expressão regular
+   * Executando a Expressão regular
    *  - allMatches: corresponde a utilizar a flag "g" busca global
    *  - hasMatch: retorna true ou false caso a Regex encontre dados
    *  - firstMatch: busca a primeira ocorrência
