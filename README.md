@@ -36,22 +36,36 @@ void main() {
 
   /*
    * Expressão Regular
-   *
-   * inicia-se com o "r" depois a String da Expressão "[a-c]"
-   *
+   *  - inicia-se com o "r" depois a String da Expressão "[a-c]"
    * Exemplo:
-   *
-   * r"[a-c]"
-   *
+   *  - r"[a-c]"
   */
-
-  RegExp regex = RegExp(r"[a-c]");
 
   /* String do Texto a Ser Analisado*/
 
   String texto = "ABC [abc] a-c 1234";
 
+  /*
+   * Criando a xpressão regular
+   * Parâmetros
+   *  - caseSensitive: corresponde a flag "i" ignora UPPER e LOWER
+   *  - dotAll: faz o ponto funcionar sobre quebra de linha e tab
+   *  - multiLine: trata expressões em strings com mais de uma linha
+   *  - unicode: trata caracteres UNICODE
+   */
+
+  RegExp regex = RegExp(r"[a-c]");
+
+  /*
+   * Executando a expressão regular
+   *  - allMatches: corresponde a utilizar a flag "g" busca global
+   *  - hasMatch: retorna true ou false caso a Regex encontre dados
+   *  - firstMatch: busca a primeira ocorrência
+   *  - stringMatch: busca a string da primeira ocorrência
+   */
+
   var match = regex.allMatches(texto);
+
   print(match);
 
 }
