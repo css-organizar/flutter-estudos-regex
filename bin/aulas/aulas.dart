@@ -29,3 +29,7 @@ export 'c005a043 - Desafios Telefones.dart';
 export 'c005a044 - Desafios Emails.dart';
 export 'c006a045 - Grupos.dart';
 export 'c006a046 - Grupos Retrovisores.dart';
+export 'c006a047- Grupos Aninhados.dart';
+export 'c006a049- Cuidados com Grupos.dart';
+export 'c006a050- Grupos Especiais 1.dart';
+export 'c006a051- Grupos Especiais 2.dart';
