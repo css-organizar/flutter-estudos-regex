@@ -7,6 +7,8 @@ void imprimirResultado(
 
   var regexHasMatch = regex.hasMatch(texto);
   var regexAllMatch = regex.allMatches(texto);
+  var regexFirstMatch = regex.firstMatch(texto);
+  var regexStringMatch = regex.stringMatch(texto);
 
   print("");
   print("Texto informado: $texto");
