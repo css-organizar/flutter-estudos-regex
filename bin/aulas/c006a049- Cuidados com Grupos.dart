@@ -17,7 +17,10 @@ void c006a049() {
    * "[(abc)]" - Insto nao é um grupo
    * */
 
-  regex = RegExp(r"[(abc)]", caseSensitive: false);
+  regex = RegExp(
+    r"[(abc)]",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -25,7 +28,10 @@ void c006a049() {
    * Dentro de um grupo o conjunto é um conjunto
    * */
 
-  regex = RegExp(r"([abc])", caseSensitive: false);
+  regex = RegExp(
+    r"([abc])",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -34,7 +40,10 @@ void c006a049() {
    * neste caso náo há necessidade de um grupo
    * */
 
-  regex = RegExp(r"(abc)+", caseSensitive: false);
+  regex = RegExp(
+    r"(abc)+",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
 //

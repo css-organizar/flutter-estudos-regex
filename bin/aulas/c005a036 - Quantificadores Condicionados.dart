@@ -16,7 +16,10 @@ void c005a036() {
    * último "o" opcional
    */
 
-  regex = RegExp(r"fogo?", caseSensitive: false);
+  regex = RegExp(
+    r"fogo?",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto1);
   imprimirResultado(regex, texto2);
 

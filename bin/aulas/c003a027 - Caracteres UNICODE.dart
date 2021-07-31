@@ -17,7 +17,10 @@ void c003a027() {
    */
 
   texto = "aʬc௵d";
-  regex = RegExp(r"\u02AC|\u0BF5", unicode: true);
+  regex = RegExp(
+    r"\u02AC|\u0BF5",
+    unicode: true,
+  );
   imprimirResultado(regex, texto);
 
 //

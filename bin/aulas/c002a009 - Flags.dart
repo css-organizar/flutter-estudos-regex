@@ -23,7 +23,10 @@ void c002a009() {
    */
 
   texto = "AaAaAa";
-  regex = RegExp("a", caseSensitive: false);
+  regex = RegExp(
+    "a",
+    caseSensitive: false,
+  );
   match = regex.allMatches(texto);
   print(match);
 
@@ -32,7 +35,10 @@ void c002a009() {
    */
 
   texto = "AaAaAa";
-  regex = RegExp("a", multiLine: true);
+  regex = RegExp(
+    "a",
+    multiLine: true,
+  );
   match = regex.allMatches(texto);
   print(match);
 

@@ -16,7 +16,10 @@ void c005a037() {
    * último "o" podenso ter uma ou várias ocorrências
    */
 
-  regex = RegExp(r"fogo+", caseSensitive: false);
+  regex = RegExp(
+    r"fogo+",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto1);
   imprimirResultado(regex, texto2);
 

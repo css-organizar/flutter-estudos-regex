@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'aulas/aulas.dart';
 
 void main() async {
@@ -9,7 +11,17 @@ void main() async {
    * para ver o resultado
    */
 
-  c006a051();
+  c008a062();
+  // c008a061();
+  // c008a060();
+  // c008a059();
+  // c008a058();
+  // c008a056();
+  // c007a055();
+  // c007a054();
+  // c007a053();
+  // c007a052();
+  // c006a051();
   // c006a050();
   // c006a049();
   // c006a047();

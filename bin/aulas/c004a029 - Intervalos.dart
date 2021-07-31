@@ -37,7 +37,10 @@ void c004a029() {
    */
 
   texto = "1,2,3,4,5,6,a.b c!d:e[f";
-  regex = RegExp(r"[A-Z1-3]", caseSensitive: false);
+  regex = RegExp(
+    r"[A-Z1-3]",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -45,7 +48,10 @@ void c004a029() {
    */
 
   texto = "1,2,3,4,5,6,a.b c!d:e[f";
-  regex = RegExp(r"[A-Z1-3]", caseSensitive: false);
+  regex = RegExp(
+    r"[A-Z1-3]",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
 //

@@ -24,7 +24,10 @@ void c006a050() {
    * incluindo os caracteres UNICODE
    */
 
-  regex = RegExp(r"[\wÀ-ú]+", caseSensitive: false);
+  regex = RegExp(
+    r"[\wÀ-ú]+",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -34,7 +37,10 @@ void c006a050() {
    * tem "," na frente do grupo de caracteres
    */
 
-  regex = RegExp(r"[\wÀ-ú]+(?=,)", caseSensitive: false);
+  regex = RegExp(
+    r"[\wÀ-ú]+(?=,)",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -44,7 +50,10 @@ void c006a050() {
    * tem "." na frente do grupo de caracteres
    */
 
-  regex = RegExp(r"[\wÀ-ú]+(?=\.)", caseSensitive: false);
+  regex = RegExp(
+    r"[\wÀ-ú]+(?=\.)",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -54,7 +63,10 @@ void c006a050() {
    * tem ", mas" na frente do grupo de caracteres
    */
 
-  regex = RegExp(r"[\wÀ-ú]+(?=, mas)", caseSensitive: false);
+  regex = RegExp(
+    r"[\wÀ-ú]+(?=, mas)",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /** Negative lookahead */
@@ -71,7 +83,10 @@ void c006a050() {
    * 
    */
 
-  regex = RegExp(r"[\wÀ-ú]+\b(?!,)", caseSensitive: false);
+  regex = RegExp(
+    r"[\wÀ-ú]+\b(?!,)",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -83,7 +98,10 @@ void c006a050() {
    * 
    */
 
-  regex = RegExp(r"[\wÀ-ú]+[\s|\.](?!,)", caseSensitive: false);
+  regex = RegExp(
+    r"[\wÀ-ú]+[\s|\.](?!,)",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
 //

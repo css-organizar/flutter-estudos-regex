@@ -18,7 +18,10 @@ void c006a051() {
    * possui letras e letras com acento
    */
 
-  regex = RegExp(r"(?:super)[\wÀ-ú]+", caseSensitive: false);
+  regex = RegExp(
+    r"(?:super)[\wÀ-ú]+",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -28,7 +31,10 @@ void c006a051() {
    * tem "super" antes
    */
 
-  regex = RegExp(r"(?<=super)[\wÀ-ú]+", caseSensitive: false);
+  regex = RegExp(
+    r"(?<=super)[\wÀ-ú]+",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -38,7 +44,10 @@ void c006a051() {
    * não tem "super" antes
    */
 
-  regex = RegExp(r"(?<!super)mercado", caseSensitive: false);
+  regex = RegExp(
+    r"(?<!super)mercado",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
 //

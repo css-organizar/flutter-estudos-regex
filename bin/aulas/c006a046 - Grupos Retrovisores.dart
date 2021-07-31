@@ -34,7 +34,10 @@ void c006a046() {
    * */
 
   texto = "<b>Destaque</B><strong>Forte</strong><div>Conteudo</div>";
-  regex = RegExp(r"<(\w+)>.*<\/\1>", caseSensitive: false);
+  regex = RegExp(
+    r"<(\w+)>.*<\/\1>",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**Exemplo 02 */
@@ -45,7 +48,10 @@ void c006a046() {
    */
 
   texto = 'Lentamente é mente muito lenta.';
-  regex = RegExp(r"(lenta)(mente).*", caseSensitive: false);
+  regex = RegExp(
+    r"(lenta)(mente).*",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -62,7 +68,10 @@ void c006a046() {
    */
 
   texto = 'Lentamente é mente muito lenta.';
-  regex = RegExp(r"(lenta)(mente).*\2", caseSensitive: false);
+  regex = RegExp(
+    r"(lenta)(mente).*\2",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -80,7 +89,10 @@ void c006a046() {
    */
 
   texto = 'Lentamente é mente muito lenta.';
-  regex = RegExp(r"(lenta)(mente).*\2.*\1", caseSensitive: false);
+  regex = RegExp(
+    r"(lenta)(mente).*\2.*\1",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -90,7 +102,10 @@ void c006a046() {
    */
 
   texto = 'Lentamente é mente muito lenta.';
-  regex = RegExp(r"(lenta)(mente).*\2.*\1\.", caseSensitive: false);
+  regex = RegExp(
+    r"(lenta)(mente).*\2.*\1\.",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -101,15 +116,24 @@ void c006a046() {
    */
 
   texto = 'Lentamente é mente muito lenta.';
-  regex = RegExp(r"(?:lenta)(mente).*\1", caseSensitive: false);
+  regex = RegExp(
+    r"(?:lenta)(mente).*\1",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**Exemplos adicionais */
 
-  regex = RegExp(r"(lenta)(mente)", caseSensitive: false);
+  regex = RegExp(
+    r"(lenta)(mente)",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
-  regex = RegExp(r"(lenta)(mente)?", caseSensitive: false);
+  regex = RegExp(
+    r"(lenta)(mente)?",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
   /**
@@ -124,7 +148,10 @@ void c006a046() {
    * 
    */
 
-  regex = RegExp(r"(lenta)(mente)", caseSensitive: false);
+  regex = RegExp(
+    r"(lenta)(mente)",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
   print(
     texto.replaceAllMapped(
@@ -142,7 +169,10 @@ void c006a046() {
    */
 
   texto = 'abcdefghijkll';
-  regex = RegExp(r"(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)\12", caseSensitive: false);
+  regex = RegExp(
+    r"(a)(b)(c)(d)(e)(f)(g)(h)(i)(j)(k)(l)\12",
+    caseSensitive: false,
+  );
   imprimirResultado(regex, texto);
 
 //

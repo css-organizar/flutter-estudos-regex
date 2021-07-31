@@ -24,7 +24,10 @@ void c003a026() {
    * caracteres inclusive o "\n - quebra de linha"
    * */
   texto = "Bom\ndia";
-  regex = RegExp(r"Bom.dia", dotAll: true);
+  regex = RegExp(
+    r"Bom.dia",
+    dotAll: true,
+  );
   imprimirResultado(regex, texto);
 
   /**

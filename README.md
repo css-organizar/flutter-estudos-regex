@@ -69,8 +69,17 @@ void main() {
   print(match);
 
 }
-
 ```
+
+#  <strong> Conteúdo Abordado </strong>
+
+ * Como Utilizar as Expressões Regulares no Dart
+ * Utilização dos Caracteres e Meta Caracteres
+ * Conjuntos
+ * Quantificadores
+ * Grupos
+ * Bordas
+ * <strong>!! EXTRA !! - Algumas receitas para Expressões Regulares </strong>
 
 #  <strong> Shorthand List </strong>
 
