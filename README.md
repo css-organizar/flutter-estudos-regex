@@ -3,6 +3,18 @@
 Repositório de Exemplos Criados com Base no Curso de Regex do <strong> Cod3R </strong> na plataforma UDEMY
  - [UDEMY - Fundamentos de Expressões Regulares (Regex)](https://www.udemy.com/course/curso-regex/)
 
+Módulos do Curso:
+ * Seção 1: Introdução
+ * Seção 2: Executando Expressões Regulares
+ * Seção 3: Caracteres
+ * Seção 4: Conjuntos
+ * Seção 5: Quantificadores
+ * Seção 6: Grupos
+ * Seção 7: Bordas
+ * Seção 8: Receitas (Exercícios)
+ * Seção 9: Conclusão
+
+
 Literatura indicada
  - [Expressões Regulares Cookbook: Soluções detalhadas em oito linguagens de programação](https://www.amazon.com/Express%C3%B5es-Regulares-Cookbook-detalhadas-programa%C3%A7%C3%A3o-ebook/dp/B07YBM728N)
  - [Expressões Regulares - 5a edição: Uma Abordagem Divertida](https://www.amazon.com.br/Express%C3%B5es-Regulares-Uma-Abordagem-Divertida/dp/8575224743/ref=asc_df_8575224743/?tag=googleshopp00-20&linkCode=df0&hvadid=379748659420&hvpos=&hvnetw=g&hvrand=9930736693242346207&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101046&hvtargid=pla-423044219264&psc=1)
