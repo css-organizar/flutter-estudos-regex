@@ -8,7 +8,7 @@ void c003a019() {
   const String texto = "1,2,3,4,5,6,a.b c!d?e";
 
   regexVirgula = RegExp(
-    "\,",
+    r"\,",
     multiLine: true,
     caseSensitive: false,
     unicode: false,
@@ -18,7 +18,7 @@ void c003a019() {
   imprimirResultado(regexVirgula, texto);
 
   regexVirgula = RegExp(
-    "\.",
+    r"\.",
     multiLine: true,
     caseSensitive: false,
     unicode: false,
@@ -28,7 +28,7 @@ void c003a019() {
   imprimirResultado(regexVirgula, texto);
 
   regexVirgula = RegExp(
-    "\A",
+    r"\A",
     multiLine: true,
     caseSensitive: false,
     unicode: false,
@@ -43,7 +43,7 @@ void c003a019() {
   */
 
   regexVirgula = RegExp(
-    "\(b c!d)",
+    r"\(b c!d)",
     multiLine: true,
     caseSensitive: false,
     unicode: false,

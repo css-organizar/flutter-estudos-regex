@@ -71,7 +71,7 @@ Válidos:
 
   expStr = "(\\b(\\d{1,2}|1\\d{2}|2[0-4]\\d|25[0-5])\\b)";
   regex = RegExp(
-    "($expStr\\.)\{3\}$expStr",
+    r"($expStr\\.)\{3\}$expStr",
     caseSensitive: false,
   );
   imprimirResultado(regex, texto);

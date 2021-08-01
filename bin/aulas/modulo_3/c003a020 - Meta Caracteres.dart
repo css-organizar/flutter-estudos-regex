@@ -1,5 +1,3 @@
-import '../../utils/funcoes.dart';
-
 void c003a020() {
 //
 

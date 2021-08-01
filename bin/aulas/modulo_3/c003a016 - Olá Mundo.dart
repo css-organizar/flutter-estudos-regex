@@ -7,10 +7,9 @@ void c003a016() {
 
   const String texto = "Casa bonita é casa amarela da esquina com ACASALAR";
   RegExp regexp;
-  var match;
 
   regexp = RegExp(
-    "\casa",
+    r"\casa",
     multiLine: true,
     caseSensitive: false,
     unicode: false,
@@ -20,7 +19,7 @@ void c003a016() {
   imprimirResultadoLoop(regexp, texto);
 
   regexp = RegExp(
-    "\a b",
+    r"\a b",
     multiLine: true,
     caseSensitive: false,
     unicode: false,

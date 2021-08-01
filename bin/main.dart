@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'aulas/aulas.dart';
 
 void main() async {

@@ -5,7 +5,7 @@ void c003a018() {
 
   const String texto = "1,2,3,4,5,6,a.b c!d?e";
   RegExp regexVirgula = RegExp(
-    "\,",
+    r"\,",
     multiLine: true,
     caseSensitive: false,
     unicode: false,

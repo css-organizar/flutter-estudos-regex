@@ -1,5 +1,3 @@
-import '../../utils/funcoes.dart';
-
 void c002a009() {
 //
 
@@ -7,7 +5,7 @@ void c002a009() {
 
   String texto;
   RegExp regex;
-  var match;
+  Iterable<RegExpMatch> match;
 
   /**
    * A função "allMatches" Age como se fosse uma expressão com o flag "g - global" 

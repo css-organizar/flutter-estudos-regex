@@ -1,5 +1,3 @@
-import '../../utils/funcoes.dart';
-
 void c005a041() {
 //
 
@@ -22,6 +20,10 @@ Lista telefônica:
     - fulano@cod3r.com.br
     - xico@gmail.com ...
 ''';
+
+  print(stringEmail);
+  print(stringCpf);
+  print(stringTelefone);
 
 //
 }
